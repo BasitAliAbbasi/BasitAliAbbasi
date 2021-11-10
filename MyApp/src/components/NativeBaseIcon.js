@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import {Icon} from 'native-base';
 import {G, Path} from 'react-native-svg';

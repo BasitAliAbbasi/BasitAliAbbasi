@@ -1,8 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\React native Projects\\MyApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "F:\\BasitAliAbbasi\\MyApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "F:\\BasitAliAbbasi\\MyApp\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "42",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "293",
+                        "startColumns": "4",
+                        "startOffsets": "19072",
+                        "endColumns": "42",
+                        "endOffsets": "19110"
+                    }
+                },
+                {
+                    "source": "F:\\BasitAliAbbasi\\MyApp\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "240"
+                    },
+                    "to": {
+                        "startLines": "363",
+                        "startColumns": "4",
+                        "startOffsets": "25520",
+                        "endLines": "366",
+                        "endColumns": "12",
+                        "endOffsets": "25700"
+                    }
+                },
                 {
                     "source": "C:\\Users\\sys\\.gradle\\caches\\transforms-2\\files-2.1\\8850ed829d25245e8497182323bc73d2\\jetified-drawee-2.2.0\\res\\values\\values.xml",
                     "from": {
@@ -42,23 +78,6 @@
                     }
                 },
                 {
-                    "source": "D:\\React native Projects\\MyApp\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "161,269",
-                        "endColumns": "63,68",
-                        "endOffsets": "220,333"
-                    },
-                    "to": {
-                        "startLines": "262,263",
-                        "startColumns": "4,4",
-                        "startOffsets": "16930,16994",
-                        "endColumns": "63,68",
-                        "endOffsets": "16989,17058"
-                    }
-                },
-                {
                     "source": "C:\\Users\\sys\\.gradle\\caches\\transforms-2\\files-2.1\\baebfc24ee3e9d675a4614c1f27f118a\\jetified-appcompat-resources-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -75,42 +94,6 @@
                         "endLines": "2085,2092,2103,3372,3377",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "141160,141545,142142,207141,207411"
-                    }
-                },
-                {
-                    "source": "D:\\React native Projects\\MyApp\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "234"
-                    },
-                    "to": {
-                        "startLines": "363",
-                        "startColumns": "4",
-                        "startOffsets": "25520",
-                        "endLines": "366",
-                        "endColumns": "12",
-                        "endOffsets": "25700"
-                    }
-                },
-                {
-                    "source": "D:\\React native Projects\\MyApp\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "42",
-                        "endOffsets": "54"
-                    },
-                    "to": {
-                        "startLines": "293",
-                        "startColumns": "4",
-                        "startOffsets": "19072",
-                        "endColumns": "42",
-                        "endOffsets": "19110"
                     }
                 },
                 {
@@ -166,6 +149,23 @@
                         "startOffsets": "15578,15647",
                         "endColumns": "68,56",
                         "endOffsets": "15642,15699"
+                    }
+                },
+                {
+                    "source": "F:\\BasitAliAbbasi\\MyApp\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "161,269",
+                        "endColumns": "63,68",
+                        "endOffsets": "220,333"
+                    },
+                    "to": {
+                        "startLines": "262,263",
+                        "startColumns": "4,4",
+                        "startOffsets": "16930,16994",
+                        "endColumns": "63,68",
+                        "endOffsets": "16989,17058"
                     }
                 }
             ]
