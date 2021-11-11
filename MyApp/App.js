@@ -20,6 +20,9 @@ import {
 
 // Color Switch Component
 function ToggleDarkMode() {
+  console.log('====================================');
+  console.log('hashahs');
+  console.log('====================================');
   const {colorMode, toggleColorMode} = useColorMode();
   return (
     <HStack space={2} alignItems="center">
