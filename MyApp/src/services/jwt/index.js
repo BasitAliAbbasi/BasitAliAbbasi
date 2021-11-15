@@ -1,21 +1,24 @@
 /* eslint-disable prettier/prettier */
-import apiClient from 'services/axios';
-import store from 'store';
+import apiClient from '../../services/axiosIncerceptor';
+// import store from 'store';
 
-export async function login(email, password, device_name) {
+export async function login(email, password, deviceName) {
   return apiClient
     .post('/sanctum/token', {
       email,
       password,
-      device_name,
+      deviceName,
     })
     .then(response => {
       if (response) {
-        const {accessToken} = response.data.token;
-        if (accessToken) {
-          store.set('accessToken', accessToken);
-        }
-        return response.data.user;
+        console.log('====================================');
+        console.log('Response', JSON.stringify(response));
+        console.log('====================================');
+        // const {accessToken} = response.data.token;
+        // if (accessToken) {
+        //   store.set('accessToken', accessToken);
+        // }
+        // return response.data.user;
       }
       return false;
     })

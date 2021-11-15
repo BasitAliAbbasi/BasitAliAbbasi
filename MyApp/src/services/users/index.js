@@ -1,17 +1,17 @@
 /* eslint-disable prettier/prettier */
-import apiClient from 'services/axios';
+// import apiClient from 'services/axios';
 
-export async function getBranch(userId) {
-  return apiClient
-    .get(`/restaurants/user/${userId}`)
-    .then(response => {
-      if (response) {
-        return response.data.result[0].restaurants;
-      }
-      return false;
-    })
-    .catch(err => console.log(err));
-}
+// export async function getBranch(userId) {
+//   return apiClient
+//     .get(`/restaurants/user/${userId}`)
+//     .then(response => {
+//       if (response) {
+//         return response.data.result[0].restaurants;
+//       }
+//       return false;
+//     })
+//     .catch(err => console.log(err));
+// }
 
 // export async function getBranchByRestaurantId(id) {
 //   return apiClient
