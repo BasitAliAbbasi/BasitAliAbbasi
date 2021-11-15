@@ -3,7 +3,7 @@
 import actions from './actions';
 
 const initialState = {
-  counter: 0,
+  list: [],
 };
 // Redux: Counter Reducer
 const usersReducer = (state = initialState, action) => {

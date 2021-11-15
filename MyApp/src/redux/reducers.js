@@ -2,10 +2,10 @@
 // Imports: Dependencies
 import {combineReducers} from 'redux';
 // Imports: Reducers
-import counterReducer from './counterReducer';
+import usersReducer from '../redux/users/reducers';
 // Redux: Root Reducer
 const rootReducer = combineReducers({
-  counter: counterReducer,
+  users: usersReducer,
 });
 // Exports
 export default rootReducer;
