@@ -7046,6 +7046,11 @@
   "resolved" "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
   "version" "1.5.0"
 
+"store@^2.0.12":
+  "integrity" "sha1-jFNOKguDH3K3X8XxEZhXxE711ZM="
+  "resolved" "https://registry.npmjs.org/store/-/store-2.0.12.tgz"
+  "version" "2.0.12"
+
 "stream-buffers@~2.2.0":
   "integrity" "sha1-kdX1Ew0c75bc+n9yaUUYh0HQnuQ="
   "resolved" "https://registry.npmjs.org/stream-buffers/-/stream-buffers-2.2.0.tgz"
